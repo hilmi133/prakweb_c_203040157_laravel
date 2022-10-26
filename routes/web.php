@@ -24,7 +24,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view ('about',[
         "title" => "About",
-        "name" => "Dede Hilmi",
+        "name" => "Dede Hilmi B",
         "email" => "dedehilmi@gmail.com",
         "image" => "profile.jpeg"
     ]);
